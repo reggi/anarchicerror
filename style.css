@@ -1,0 +1,59 @@
+a{
+    text-decoration:none
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+body{
+    background-image:url("./background.png");
+    background-attachment:fixed;
+    background-repeat:repeat;
+    background-position:center;
+}
+
+#logo{
+    display:block;
+    margin:auto;
+}
+
+#content{
+    padding:0 15px 0 15px;
+    font-family:verdana;
+    font-size:12px;
+    line-height: 24px
+}
+
+#navigation{
+    padding:15px;
+    font-size:12px;
+    font-family:verdana;
+}
+
+#navigation a{
+    color:#000;
+    display:block;
+}
+
+#navigation span{
+    padding:10px 0 5px 0;
+    color:#996633;
+    display:block;
+}
+
+#footer{
+    margin-top:15px;
+    color:white;
+    text-align:center;
+    font-size:10px;
+}
+
+#footer p{
+    margin:0;
+    padding:0;
+}
+
+#footer p:first-child{
+    font-weight:bold;
+}
